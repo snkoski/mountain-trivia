@@ -1,0 +1,142 @@
+{
+  "mountains": [
+    {
+      "name": "Mount Everest",
+      "height": 8848.86,
+      "height_unit": "meters",
+      "location": "Nepal/China",
+      "fact": "Mount Everest is the highest peak in the world and was first summited by Sir Edmund Hillary and Tenzing Norgay in 1953."
+    },
+    {
+      "name": "K2 (Mount Godwin-Austen)",
+      "height": 8611,
+      "height_unit": "meters",
+      "location": "Pakistan/China",
+      "fact": "K2 is known as the 'Savage Mountain' due to its challenging climbing conditions and is the second-highest mountain in the world."
+    },
+    {
+      "name": "Kangchenjunga",
+      "height": 8586,
+      "height_unit": "meters",
+      "location": "Nepal/India",
+      "fact": "Kangchenjunga was considered the highest mountain in the world until 1852, and it is known for its five peaks."
+    },
+    {
+      "name": "Lhotse",
+      "height": 8516,
+      "height_unit": "meters",
+      "location": "Nepal/China",
+      "fact": "Lhotse is closely connected to Everest, sharing the same base camp, and is the fourth-highest mountain in the world."
+    },
+    {
+      "name": "Makalu",
+      "height": 8485,
+      "height_unit": "meters",
+      "location": "Nepal/China",
+      "fact": "Makalu is known for its pyramid-shaped peak and is the fifth-highest mountain in the world."
+    },
+    {
+      "name": "Cho Oyu",
+      "height": 8188,
+      "height_unit": "meters",
+      "location": "Nepal/China",
+      "fact": "Cho Oyu, meaning 'Turquoise Goddess,' is known for being one of the easiest 8,000-meter peaks to climb."
+    },
+    {
+      "name": "Dhaulagiri I",
+      "height": 8167,
+      "height_unit": "meters",
+      "location": "Nepal",
+      "fact": "Dhaulagiri I was first climbed in 1960 and is known for its massive, impressive bulk."
+    },
+    {
+      "name": "Manaslu",
+      "height": 8163,
+      "height_unit": "meters",
+      "location": "Nepal",
+      "fact": "Manaslu is known as the 'Mountain of the Spirit' and was first summited in 1956."
+    },
+    {
+      "name": "Nanga Parbat",
+      "height": 8126,
+      "height_unit": "meters",
+      "location": "Pakistan",
+      "fact": "Nanga Parbat is known as the 'Killer Mountain' due to the high fatality rate among climbers attempting its summit."
+    },
+    {
+      "name": "Annapurna I",
+      "height": 8091,
+      "height_unit": "meters",
+      "location": "Nepal",
+      "fact": "Annapurna I has the highest fatality rate among the 14 eight-thousanders, with a high risk for climbers."
+    }
+  ],
+  "items": [
+    {
+      "name": "Skittle",
+      "height": 0.015,
+      "height_unit": "meters",
+      "fact": "Skittles were first produced in the 1970s in the United Kingdom and have a distinctive fruity flavor."
+    },
+    {
+      "name": "Hot Dog",
+      "height": 0.15,
+      "height_unit": "meters",
+      "fact": "Hot dogs, also known as frankfurters, are named after Frankfurt, Germany, where they originated."
+    },
+    {
+      "name": "Foot-Long Hot Dog",
+      "height": 0.305,
+      "height_unit": "meters",
+      "fact": "The foot-long hot dog is a popular American food item, often served at sporting events and barbecues."
+    },
+    {
+      "name": "Matchbox Car",
+      "height": 0.075,
+      "height_unit": "meters",
+      "fact": "Matchbox cars were first introduced in 1953 and are known for their detailed miniature models of real vehicles."
+    },
+    {
+      "name": "Statue of Liberty",
+      "height": 93,
+      "height_unit": "meters",
+      "fact": "The Statue of Liberty was a gift from France to the United States and was dedicated on October 28, 1886."
+    },
+    {
+      "name": "Deepest Part of the Ocean (Mariana Trench)",
+      "height": 10994,
+      "height_unit": "meters",
+      "fact": "The Mariana Trench is the deepest part of the world's oceans and reaches a depth of about 11,000 meters."
+    },
+    {
+      "name": "50-Inch TV (Length of Widescreen TV)",
+      "height": 1.11,
+      "height_unit": "meters",
+      "fact": "A 50-inch TV has become a standard size for large home entertainment screens, offering a cinematic experience."
+    },
+    {
+      "name": "Marathon",
+      "height": 42195,
+      "height_unit": "meters",
+      "fact": "A marathon is a long-distance running event with a standard length of 42.195 kilometers, originating from the ancient Greek marathon run."
+    },
+    {
+      "name": "Ham",
+      "height": 0.25,
+      "height_unit": "meters",
+      "fact": "Ham is a type of processed meat that comes from the hind leg of a pig and has been a staple in many cultures for centuries."
+    },
+    {
+      "name": "Shortest Mountain (Mount Wycheproof)",
+      "height": 0.043,
+      "height_unit": "meters",
+      "fact": "Mount Wycheproof in Australia is considered the world's shortest mountain, with a height of just 148 meters."
+    },
+    {
+      "name": "Dr. Pepper Can",
+      "height": 0.12,
+      "height_unit": "meters",
+      "fact": "A standard Dr. Pepper can holds 355 milliliters of soda and is known for its unique blend of 23 flavors."
+    }
+  ]
+}
