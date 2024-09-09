@@ -61,7 +61,7 @@ export function DisplayCard({ river, item }: DisplayCardProps) {
             </div>
           )}
         </div>
-        <p className="text-lg font-medium text-gray-600">Answer: {answer}</p>
+        {/* <p className="text-lg font-medium text-gray-600">Answer: {answer}</p> */}
       </div>
     </div>
   );
