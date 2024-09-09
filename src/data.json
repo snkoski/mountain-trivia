@@ -5,49 +5,203 @@
       "length": 6575,
       "length_unit": "kilometers",
       "location": "South America",
-      "fact": "The Amazon River is the largest river by water volume in the world and is home to diverse ecosystems."
+      "fact": "The Amazon River discharges more water than the next seven largest rivers combined, contributing 20% of the world's fresh water entering the oceans."
     },
     {
       "name": "Nile River",
       "length": 6650,
       "length_unit": "kilometers",
       "location": "Africa",
-      "fact": "The Nile is often considered the longest river in the world and was crucial to the development of ancient Egyptian civilization."
+      "fact": "The Nile is the lifeblood of Egypt, allowing civilization to flourish for thousands of years in an otherwise arid desert region."
     },
     {
       "name": "Yangtze River",
       "length": 6300,
       "length_unit": "kilometers",
       "location": "China",
-      "fact": "The Yangtze River is the longest river in Asia and is home to several endangered species, including the Chinese alligator."
+      "fact": "The Yangtze River is home to the world's largest hydroelectric dam, the Three Gorges Dam, which generates a colossal amount of energy."
     },
     {
       "name": "Mississippi River",
       "length": 3766,
       "length_unit": "kilometers",
       "location": "United States",
-      "fact": "The Mississippi River is the second-longest river in North America and has played a significant role in American history and commerce."
+      "fact": "Mark Twain’s stories immortalized the Mississippi River, making it a symbol of American culture and history."
     },
     {
       "name": "Yenisei River",
       "length": 5539,
       "length_unit": "kilometers",
       "location": "Russia",
-      "fact": "The Yenisei River is the largest river system flowing to the Arctic Ocean and is an important transportation route in Siberia."
+      "fact": "The Yenisei River is the backbone of Siberia, where its frozen waters form treacherous yet essential travel routes during winter."
     },
     {
       "name": "Congo River",
       "length": 4700,
       "length_unit": "kilometers",
       "location": "Africa",
-      "fact": "The Congo River is the second-longest river in Africa and is known for its deep waters and powerful rapids."
+      "fact": "The Congo River is the deepest river in the world, reaching depths of over 220 meters, enough to submerge a skyscraper!"
     },
     {
       "name": "Mekong River",
       "length": 4350,
       "length_unit": "kilometers",
       "location": "Southeast Asia",
-      "fact": "The Mekong River flows through six countries and is crucial for agriculture and fisheries in the region."
+      "fact": "The Mekong River sustains over 60 million people, with its annual flooding providing fertile silt for farming in the region."
+    },
+    {
+      "name": "Ganges River",
+      "length": 2525,
+      "length_unit": "kilometers",
+      "location": "India",
+      "fact": "The Ganges River is considered sacred in Hinduism, and millions of people make pilgrimages to its banks each year."
+    },
+    {
+      "name": "Danube River",
+      "length": 2860,
+      "length_unit": "kilometers",
+      "location": "Europe",
+      "fact": "Flowing through 10 countries, the Danube has been a critical waterway for trade and transportation in Europe for centuries."
+    },
+    {
+      "name": "Volga River",
+      "length": 3530,
+      "length_unit": "kilometers",
+      "location": "Russia",
+      "fact": "The Volga River is the longest river in Europe and was known as ‘Mother Volga’ in Russian folklore due to its cultural significance."
+    },
+    {
+      "name": "Indus River",
+      "length": 3180,
+      "length_unit": "kilometers",
+      "location": "Pakistan",
+      "fact": "The Indus River Valley was home to one of the world’s earliest urban civilizations, flourishing over 4,000 years ago."
+    },
+    {
+      "name": "Rhine River",
+      "length": 1233,
+      "length_unit": "kilometers",
+      "location": "Europe",
+      "fact": "The Rhine River forms a natural border between France and Germany and has been the setting of many historical conflicts."
+    },
+    {
+      "name": "Tigris River",
+      "length": 1850,
+      "length_unit": "kilometers",
+      "location": "Middle East",
+      "fact": "Along with the Euphrates, the Tigris cradled the Mesopotamian civilization, often referred to as the cradle of civilization."
+    },
+    {
+      "name": "Euphrates River",
+      "length": 2800,
+      "length_unit": "kilometers",
+      "location": "Middle East",
+      "fact": "The Euphrates and Tigris rivers together nurtured ancient Mesopotamian empires such as Sumer, Babylon, and Assyria."
+    },
+    {
+      "name": "Zambezi River",
+      "length": 2574,
+      "length_unit": "kilometers",
+      "location": "Africa",
+      "fact": "The Zambezi River is known for its stunning Victoria Falls, one of the largest and most famous waterfalls in the world."
+    },
+    {
+      "name": "Murray River",
+      "length": 2508,
+      "length_unit": "kilometers",
+      "location": "Australia",
+      "fact": "The Murray River is the longest river in Australia and provides crucial water to the country’s agriculture industry."
+    },
+    {
+      "name": "Seine River",
+      "length": 777,
+      "length_unit": "kilometers",
+      "location": "France",
+      "fact": "The Seine River runs through the heart of Paris and has inspired artists like Monet and writers like Victor Hugo."
+    },
+    {
+      "name": "Yellow River",
+      "length": 5464,
+      "length_unit": "kilometers",
+      "location": "China",
+      "fact": "The Yellow River is called ‘China’s Sorrow’ because of its frequent flooding, which has caused devastating damage over centuries."
+    },
+    {
+      "name": "Loire River",
+      "length": 1012,
+      "length_unit": "kilometers",
+      "location": "France",
+      "fact": "The Loire is known for its breathtaking valley, home to historic castles and vineyards along its banks."
+    },
+    {
+      "name": "Colorado River",
+      "length": 2330,
+      "length_unit": "kilometers",
+      "location": "United States",
+      "fact": "The Colorado River carved the Grand Canyon, one of the most iconic geological landmarks in the world."
+    },
+    {
+      "name": "Thames River",
+      "length": 346,
+      "length_unit": "kilometers",
+      "location": "England",
+      "fact": "The River Thames has been a major influence on the growth of London, playing a role in trade since Roman times."
+    },
+    {
+      "name": "Jordan River",
+      "length": 251,
+      "length_unit": "kilometers",
+      "location": "Middle East",
+      "fact": "The Jordan River is deeply significant in Christianity, as it is believed to be where Jesus was baptized by John the Baptist."
+    },
+    {
+      "name": "Lena River",
+      "length": 4400,
+      "length_unit": "kilometers",
+      "location": "Russia",
+      "fact": "The Lena River is one of the largest rivers flowing into the Arctic Ocean, known for its remote and pristine surroundings."
+    },
+    {
+      "name": "Paraná River",
+      "length": 4880,
+      "length_unit": "kilometers",
+      "location": "South America",
+      "fact": "The Paraná River provides power to millions through the Itaipu Dam, one of the largest hydroelectric plants in the world."
+    },
+    {
+      "name": "Dnieper River",
+      "length": 2201,
+      "length_unit": "kilometers",
+      "location": "Ukraine",
+      "fact": "The Dnieper River is a crucial waterway in Ukraine and has influenced the country's economic development for centuries."
+    },
+    {
+      "name": "Ganges-Brahmaputra Delta",
+      "length": 2525,
+      "length_unit": "kilometers",
+      "location": "India/Bangladesh",
+      "fact": "The Ganges-Brahmaputra Delta is the largest delta in the world and is crucial to agriculture in the region."
+    },
+    {
+      "name": "Amur River",
+      "length": 2824,
+      "length_unit": "kilometers",
+      "location": "Russia/China",
+      "fact": "The Amur River forms part of the border between Russia and China and is one of the longest undammed rivers in the world."
+    },
+    {
+      "name": "Orinoco River",
+      "length": 2140,
+      "length_unit": "kilometers",
+      "location": "South America",
+      "fact": "The Orinoco River is one of the longest in South America, and its basin is home to rare wildlife like the Orinoco crocodile."
+    },
+    {
+      "name": "Irrawaddy River",
+      "length": 2170,
+      "length_unit": "kilometers",
+      "location": "Myanmar",
+      "fact": "The Irrawaddy River is the most important river in Myanmar, often called 'The Road to Mandalay' after Rudyard Kipling's poem."
     }
   ],
   "items": [

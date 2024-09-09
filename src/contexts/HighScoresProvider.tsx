@@ -21,11 +21,11 @@ export const HighScoresProvider = ({ children }: PropsWithChildren) => {
     return storedScores
       ? JSON.parse(storedScores)
       : [
-          { name: 'TST', score: 1 },
-          { name: 'TST', score: 0 },
-          { name: 'TST', score: 0 },
-          { name: 'TST', score: 0 },
-          { name: 'TST', score: 0 }
+          { name: '', score: 0 },
+          { name: '', score: 0 },
+          { name: '', score: 0 },
+          { name: '', score: 0 },
+          { name: '', score: 0 }
         ];
   });
 
