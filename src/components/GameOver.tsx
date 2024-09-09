@@ -17,7 +17,7 @@ export function GameOver({ score, setGameState }: GameOverProps) {
   });
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gray-100 p-4">
+    <div className="flex flex-col items-center min-h-screen bg-river bg-cover p-4">
       <h1 className="text-4xl font-bold text-red-600 mb-4">Game Over</h1>
       <p className="text-lg text-gray-700 mb-2">
         You scored {score}/{GAME_LENGTH}

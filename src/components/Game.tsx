@@ -97,7 +97,7 @@ export function Game({ data, gameLength, setGameState, setScore }: GameProps) {
   };
 
   return (
-    <div className="flex flex-col items-center p-6 bg-gray-50 min-h-screen">
+    <div className="flex flex-col items-center p-6 bg-river2 bg-cover min-h-screen">
       <div className="bg-white shadow-lg rounded-lg p-6 mb-6 w-full max-w-lg">
         <p className="text-lg font-medium text-gray-800 mb-2">
           {/* Pending guess: <span className="font-bold">{state.pendingGuess}</span> */}
