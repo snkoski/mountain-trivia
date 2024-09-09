@@ -3,7 +3,7 @@ export default {
   content: ['./App.tsx', './main.tsx', './index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     backgroundImage: {
-      river: "url('./river.webp')"
+      river: "url('/src/assets/river.webp')"
     }
   },
   plugins: []
