@@ -1,10 +1,10 @@
 import React from 'react';
 import { DisplayCard } from './DisplayCard';
 import { GAME_LENGTH } from '../constants';
-import { Item, Mountain } from '../GameContainer';
+import { Item, River } from '../GameContainer';
 
 type Data = {
-  mountain: Mountain;
+  river: River;
   item: Item;
   answer: string;
 };
@@ -102,7 +102,7 @@ export function Game({ data, gameLength, setGameState, setScore }: GameProps) {
         <p className="text-lg font-medium text-gray-800 mb-2">
           {/* Pending guess: <span className="font-bold">{state.pendingGuess}</span> */}
         </p>
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">Mountain Trivia</h1>
+        <h1 className="text-3xl font-bold text-gray-900 mb-4">River Trivia</h1>
         <h2 className="text-2xl font-semibold text-gray-700 mb-2">
           Question {state.currentQuestion}
         </h2>
@@ -111,7 +111,7 @@ export function Game({ data, gameLength, setGameState, setScore }: GameProps) {
           <span className="font-bold">{state.currentQuestion - 1}</span>
         </h3>
         <DisplayCard
-          mountain={data[state.currentQuestion - 1].mountain}
+          river={data[state.currentQuestion - 1].river}
           item={data[state.currentQuestion - 1].item}
         />
         <form onSubmit={(event) => handleSubmitAnswer(event)} className="flex flex-col gap-4 mt-6">

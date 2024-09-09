@@ -17,7 +17,7 @@ export const HighScoresContext = createContext<HighScoresContextType>({} as High
 // Create a provider component
 export const HighScoresProvider = ({ children }: PropsWithChildren) => {
   const [highScores, setHighScores] = useState<Score[]>(() => {
-    const storedScores = localStorage.getItem('mountain-trivia-high-scores');
+    const storedScores = localStorage.getItem('river-trivia-high-scores');
     return storedScores
       ? JSON.parse(storedScores)
       : [
@@ -36,7 +36,7 @@ export const HighScoresProvider = ({ children }: PropsWithChildren) => {
       const topScores = newScores.slice(0, 5);
 
       // Update localStorage with the new top scores
-      localStorage.setItem('mountain-trivia-high-scores', JSON.stringify(topScores));
+      localStorage.setItem('river-trivia-high-scores', JSON.stringify(topScores));
 
       return topScores;
     });

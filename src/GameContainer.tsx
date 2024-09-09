@@ -3,46 +3,40 @@ import { Game } from './components/Game';
 import React from 'react';
 import { GameOver } from './components/GameOver';
 import { GAME_LENGTH } from './constants';
-import distanceConverter from './helpers/conversions';
 
-export type Mountain = {
+export type River = {
   name: string;
-  height: number;
-  height_unit: string;
+  length: number;
+  length_unit: string;
   location: string;
   fact: string;
 };
 
 export type Item = {
   name: string;
-  height: number;
-  height_unit: string;
+  length: number;
+  length_unit: string;
   fact: string;
 };
 
 export type Data = {
-  mountains: Mountain[];
+  rivers: River[];
   items: Item[];
   answer?: string;
 };
 
-// makes an array of mountain and item pairs
-const makeQuestions = ({ mountains, items }: Data) => {
-  const questions = mountains.map((mountain) => {
+// makes an array of river and item pairs
+const makeQuestions = ({ rivers, items }: Data) => {
+  const questions = rivers.map((river) => {
     const item = items[Math.floor(Math.random() * items.length)];
-    const answer = (mountain.height / item.height).toFixed(2);
-    // const itemInInches = {
-    //   ...item,
-    //   height: distanceConverter.metersToInches(item.height),
-    //   height_unit: 'inches'
-    // };
-    // return { mountain, item: itemInInches, answer };
-    return { mountain, item, answer };
+    const answer = (river.length / item.length).toFixed(2);
+
+    return { river, item, answer };
   });
   return questions;
 };
 
-let info = makeQuestions(data);
+const info = makeQuestions(data);
 
 export function GameContainer() {
   const [gameState, setGameState] = React.useState<'idle' | 'running' | 'over'>('idle');

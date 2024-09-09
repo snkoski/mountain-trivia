@@ -10,20 +10,12 @@ type GameOverProps = {
 
 export function GameOver({ score, setGameState }: GameOverProps) {
   // score = 2;
-  const { highScores, update: setHighScores } = useContext(HighScoresContext);
-  const [name, setName] = useState('');
+  const { highScores } = useContext(HighScoresContext);
   const lowestHighScore = highScores.length >= 5 ? highScores[highScores.length - 1]?.score : 0;
   const [highScorePending, setHighScorePending] = useState<boolean>(() => {
     return score > lowestHighScore;
   });
 
-  const handleSubmit = (event: React.FormEvent) => {
-    event.preventDefault();
-    if (score <= lowestHighScore) return;
-    const newHighScore = { name, score };
-    setHighScores(newHighScore);
-    setGameState('idle');
-  };
   return (
     <div className="flex flex-col items-center min-h-screen bg-gray-100 p-4">
       <h1 className="text-4xl font-bold text-red-600 mb-4">Game Over</h1>

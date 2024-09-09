@@ -14,7 +14,7 @@ export function Header() {
 
         {/* Centered title */}
         <h1 className="text-3xl font-bold text-gray-800 text-center flex-1">
-          Mountain Height Trivia!!
+          River Length Trivia!!
         </h1>
 
         {/* Right-aligned buttons */}

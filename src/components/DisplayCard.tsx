@@ -1,42 +1,41 @@
 import { useContext, useState } from 'react';
-import { Item, Mountain } from '../GameContainer';
+import { Item, River } from '../GameContainer';
 import { DifficultyContext } from '../contexts/DifficultyProvider';
 import distanceConverter from '../helpers/conversions';
 
 type DisplayCardProps = {
-  mountain: Mountain;
+  river: River;
   item: Item;
 };
 
-export function DisplayCard({ mountain, item }: DisplayCardProps) {
+export function DisplayCard({ river, item }: DisplayCardProps) {
   const { difficulty } = useContext(DifficultyContext);
-  const [isMountainFactOpen, setIsMountainFactOpen] = useState(false);
+  const [isRiverFactOpen, setIsRiverFactOpen] = useState(false);
   const [isItemFactOpen, setIsItemFactOpen] = useState(false);
-  const answer = (mountain.height / item.height).toFixed(2);
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
       <div className="flex flex-col gap-4">
         <p className="text-lg">
           How many <span className="font-semibold">{item.name}s</span> would it take to get to get
-          to the top of <span className="font-semibold">{mountain.name}</span>?
+          to the top of <span className="font-semibold">{river.name}</span>?
         </p>
         <p className="text-lg font-semibold text-gray-800">
-          {mountain.name}
+          {river.name}
           {difficulty === 'very_easy' && (
-            <span className="text-blue-600 text-base"> ({mountain.height} meters)</span>
+            <span className="text-blue-600 text-base"> ({river.length} meters)</span>
           )}
         </p>
         <div>
           <button
-            onClick={() => setIsMountainFactOpen(!isMountainFactOpen)}
+            onClick={() => setIsRiverFactOpen(!isRiverFactOpen)}
             className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none w-full text-left"
           >
-            {isMountainFactOpen ? 'Hide Mountain Fact' : 'Show Mountain Fact'}
+            {isRiverFactOpen ? 'Hide River Fact' : 'Show River Fact'}
           </button>
-          {isMountainFactOpen && (
+          {isRiverFactOpen && (
             <div className="mt-2 p-4 bg-gray-100 border border-gray-300 rounded-lg">
-              <p className="text-gray-800">{mountain.fact}</p>
+              <p className="text-gray-800">{river.fact}</p>
             </div>
           )}
         </div>
@@ -45,7 +44,7 @@ export function DisplayCard({ mountain, item }: DisplayCardProps) {
           {(difficulty === 'easy' || difficulty === 'very_easy') && (
             <span className="text-green-600 text-base">
               {' '}
-              ({distanceConverter.metersToInches(item.height)} inches)
+              ({distanceConverter.metersToInches(item.length)} inches)
             </span>
           )}
         </p>
