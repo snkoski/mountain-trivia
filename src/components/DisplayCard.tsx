@@ -17,8 +17,8 @@ export function DisplayCard({ river, item }: DisplayCardProps) {
     <div className="bg-white shadow-lg rounded-lg p-6 border border-gray-200">
       <div className="flex flex-col gap-4">
         <p className="text-lg">
-          How many <span className="font-semibold">{item.name}s</span> would it take to get to get
-          to the top of <span className="font-semibold">{river.name}</span>?
+          How many <span className="font-semibold">{item.name}s</span> would it take to reach the{' '}
+          mouth of the <span className="font-semibold">{river.name}</span>?
         </p>
         <p className="text-lg font-semibold text-gray-800">
           {river.name}
@@ -61,7 +61,7 @@ export function DisplayCard({ river, item }: DisplayCardProps) {
             </div>
           )}
         </div>
-        {/* <p className="text-lg font-medium text-gray-600">Answer: {answer}</p> */}
+        <p className="text-lg font-medium text-gray-600">Answer: {answer}</p>
       </div>
     </div>
   );
