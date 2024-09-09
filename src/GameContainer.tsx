@@ -43,7 +43,7 @@ export function GameContainer() {
   const [score, setScore] = React.useState(0);
   if (gameState === 'idle') {
     return (
-      <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-blue-500 to-teal-400 text-white">
+      <div className="flex flex-col items-center justify-center h-screen bg-river bg-cover text-white">
         <button
           onClick={() => setGameState('running')}
           className="bg-yellow-500 text-black px-8 py-4 rounded-full text-xl font-semibold shadow-lg transform transition-transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-yellow-400"
